@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carlinhos Lanches</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background: #d62828;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+    header p {
+      margin-top: 5px;
+    }
+    nav {
+      background: #9d0208;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .btn {
+      display: inline-block;
+      background: #d62828;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background: #9d0208;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Carlinhos Lanches</h1>
+    <p>Lanchonete • Sanduíches • Batatas • Delivery</p>
+    <p>⭐ 4,7 (286 avaliações)</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#menu">Menu</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <div class="card">
+      <h2>Sobre a Carlinhos Lanches</h2>
+      <p>
+        A <strong>Carlinhos Lanches</strong> é uma lanchonete tradicional em Londrina, conhecida pelas porções de batatas e sanduíches em diversas combinações de ingredientes. Ambiente simples, atendimento de qualidade e opções práticas para comer no local ou pedir em casa.
+      </p>
+      <p><strong>Faixa de preço:</strong> R$ 20 – R$ 40 por pessoa</p>
+    </div>
+  </section>
+
+  <section id="menu">
+    <div class="card">
+      <h2>Menu</h2>
+      <p>Confira alguns dos nossos destaques:</p>
+      <ul>
+        <li>Sanduíches artesanais</li>
+        <li>X-Burguer, X-Salada e combinações especiais</li>
+        <li>Porções de batata frita</li>
+        <li>Bebidas variadas</li>
+      </ul>
+      <p>Para o menu completo, fale conosco ou acesse nosso Instagram.</p>
+      <a class="btn" href="https://www.instagram.com" target="_blank">Ver Instagram</a>
+    </div>
+  </section>
+
+  <section id="servicos">
+    <div class="card">
+      <h2>Serviços</h2>
+      <div class="info-grid">
+        <div>
+          <h3>🍔 Comer no local</h3>
+          <p>Ambiente simples e aconchegante.</p>
+        </div>
+        <div>
+          <h3>📱 Retirada no local</h3>
+          <p>Faça seu pedido e retire rapidamente.</p>
+        </div>
+        <div>
+          <h3>🛵 Delivery</h3>
+          <p>Entrega sem contacto para sua segurança.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="card">
+      <h2>Contato & Localização</h2>
+      <p><strong>Endereço:</strong><br>
+        R. César de Oliveira Bertin, 120 – San Fernando<br>
+        Londrina – PR, 86040-640
+      </p>
+      <p><strong>Telefone:</strong> (43) 3334-3581</p>
+      <p><strong>Horário de funcionamento:</strong><br>
+        Fechado no momento<br>
+        Abre às 18:30 (segunda-feira)
+      </p>
+      <p><strong>Localização:</strong> MV5C+QF – San Fernando, Londrina - PR</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Carlinhos Lanches</p>
+    <p>Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
