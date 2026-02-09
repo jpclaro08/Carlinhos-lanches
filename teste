@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Carlinhos Lanches</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff8dc;
+    }
+    header {
+      background: #d32f2f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      width: 140px;
+    }
+    .btn {
+      display: inline-block;
+      background: #25d366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    img.menu {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    footer {
+      background: #d32f2f;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Carlinhos Lanches">
+  <h1>Carlinhos Lanches</h1>
+  <p>Lanches • Porções • Bebidas</p>
+  <a class="btn" href="https://wa.me/554333343581" target="_blank">
+    Pedir no WhatsApp
+  </a>
+</header>
+
+<section>
+  <div class="card">
+    ⭐ 4,7 (286 avaliações)<br>
+    💰 R$ 20 – 40 por pessoa<br><br>
+    Porções de batatas e sanduíches em diversas combinações de ingredientes,
+    bebidas geladas e ambiente simples.
+  </div>
+
+  <div class="card">
+    <h2>📋 Cardápio</h2>
+    <img class="menu" src="menu1.png">
+    <img class="menu" src="menu2.png">
+  </div>
+
+  <div class="card">
+    📍 R. César de Oliveira Bertin, 120 – San Fernando, Londrina – PR<br>
+    📞 (43) 3334-3581<br>
+    ⏰ Abre às 18:30
+  </div>
+</section>
+
+<footer>
+  © 2026 Carlinhos Lanches
+</footer>
+
+</body>
+</html>
